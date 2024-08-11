@@ -1,0 +1,29 @@
+{
+  "name": "@yme/mirror-cli",
+  "description": "CLI for setting npm and electron mirror.",
+  "version": "0.2.1",
+  "type": "module",
+  "author": "mino",
+  "repository": "minosss/mirror-cli",
+  "license": "MIT",
+  "keywords": [
+    "mirror-cli",
+    "registry",
+    "npm"
+  ],
+  "bin": {
+    "mirror": "bin/cli.js"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "@yme/argv": "0.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
